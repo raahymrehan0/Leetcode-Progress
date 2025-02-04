@@ -3,7 +3,7 @@ class Solution {
     {
         int min_price = 100_000;
         int max_profit = -1;
-        int profit = 0;
+        int profit;
 
         for (int price : prices)
         {
