@@ -15,8 +15,6 @@ class Solution {
             {
                 hold = prices[i];
             }
-            System.out.println("Hold: " + hold);
-            System.out.println("Profit: " + profit);
             i++;
         }
         return profit;
